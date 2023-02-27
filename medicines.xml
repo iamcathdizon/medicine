@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medicines>
+  <medicine name="Paracetamol">
+    <brand name="Biogesic" manufacturer="Unilab">
+      <dosage form="Tablet" strength="500mg" quantity="10" />
+      <dosage form="Suspension" strength="120mg/5mL" quantity="60mL" />
+      <indication for="fever" />
+      <indication for="pain" />
+      <contraindication for="liver disease" />
+    </brand>
+    <brand name="Calpol" manufacturer="GlaxoSmithKline">
+      <dosage form="Tablet" strength="500mg" quantity="24" />
+      <dosage form="Suspension" strength="120mg/5mL" quantity="60mL" />
+      <indication for="fever" />
+      <indication for="pain" />
+      <contraindication for="allergy to paracetamol" />
+      <administration>oral</administration>
+    </brand>
+  </medicine>
+  <medicine name="Amoxicillin">
+    <brand name="Amoxil" manufacturer="GlaxoSmithKline">
+      <dosage form="Capsule" strength="500mg" quantity="15" />
+      <dosage form="Suspension" strength="250mg/5mL" quantity="100mL" />
+      <indication for="bacterial infections" />
+      <contraindication for="allergy to penicillin" />
+      <administration>oral</administration>
+    </brand>
+    <brand name="Novamox" manufacturer="Cipla">
+      <dosage form="Tablet" strength="500mg" quantity="10" />
+      <dosage form="Suspension" strength="250mg/5mL" quantity="60mL" />
+      <indication for="bacterial infections" />
+      <contraindication for="allergy to penicillin" />
+      <administration>oral</administration>
+    </brand>
+  </medicine>
+  <medicine name="Loperamide">
+    <brand name="Imodium" manufacturer="Johnson &amp; Johnson">
+      <dosage form="Capsule" strength="2mg" quantity="12" />
+      <dosage form="Liquid" strength="1mg/mL" quantity="120mL" />
+      <indication for="diarrhea" />
+      <contraindication for="bloody diarrhea" />
+      <administration>oral</administration>
+    </brand>
+    <brand name="Lopex" manufacturer="Zuellig Pharma">
+      <dosage form="Capsule" strength="2mg" quantity="24" />
+      <dosage form="Liquid" strength="1mg/mL" quantity="120mL" />
+      <indication for="diarrhea" />
+      <contraindication for="bloody diarrhea" />
+      <administration>oral</administration>
+    </brand>
+  </medicine>
+  <medicine name="Cetirizine">
+    <brand name="Zyrtec" manufacturer="Pfizer">
+      <dosage form="Tablet" strength="10mg" quantity="10" />
+      <dosage form="Liquid" strength="1mg/mL" quantity="75mL" />
+      <indication for="allergic rhinitis" />
+      </brand>
+    </medicine>
+</medicines>
